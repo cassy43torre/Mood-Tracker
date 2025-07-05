@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.5s ease;
+  text-align: center;
+  background-color: #fdf0f3;
+}
+
+.outer-box {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.outer-box h1 {
+  color: #b86fc9;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.inner-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.emoji-bubble {
+  background-color: #f8e1ff;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.emoji-bubble:hover {
+  transform: scale(1.2);
+  background-color: #f3c1ff;
+}
+
+.quote-box {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #823d99;
+  background-color: #fff0fa;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
+}
+
+textarea {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #d8aad3;
+  font-size: 16px;
+  resize: none;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.save-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #d58add;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.save-btn:hover {
+  background-color: #b86fc9;
+}
+
+.tracker-box {
+  background-color: #ffffff;
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
+}
+
+.tracker-box h2 {
+  color: #b86fc9;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#mood-log {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+  color: #6c3a85;
+}
+
+#mood-log li {
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.calendar-box {
+  margin-top: 30px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
+}
+
+.calendar-box h2 {
+  color: #b86fc9;
+  font-size: 20px;
+}
+
+#calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.calendar-cell {
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #f5e4f7;
+  min-height: 60px;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.2s ease;
+  text-align: center;
+  color: #6a3374;
+}
+
+.calendar-cell:hover {
+  background-color: #ebc9f2;
+}

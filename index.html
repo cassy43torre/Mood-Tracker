@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mood Tracker ✨</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="page">
+  <div class="outer-box">
+    <h1>How are you feeling today? 🩷</h1>
+    <div class="inner-box">
+      <div class="emoji-bubble" onclick="react('😊')">😊</div>
+      <div class="emoji-bubble" onclick="react('😢')">😢</div>
+      <div class="emoji-bubble" onclick="react('😡')">😡</div>
+      <div class="emoji-bubble" onclick="react('😎')">😎</div>
+      <div class="emoji-bubble" onclick="react('🫶')">🫶</div>
+      <div class="emoji-bubble" onclick="react('🥰')">🥰</div>
+      <div class="emoji-bubble" onclick="react('🤪')">🤪</div>
+      <div class="emoji-bubble" onclick="react('😴')">😴</div>
+      <div class="emoji-bubble" onclick="react('🫠')">🫠</div>
+      <div class="emoji-bubble" onclick="react('💀')">💀</div>
+    </div>
+
+    <div class="quote-box" id="message">Click an emoji to get a quote 💬</div>
+
+    <textarea id="note-input" placeholder="Write about your mood..." rows="3"></textarea>
+    <br>
+    <button onclick="saveMood()" class="save-btn">Save Mood</button>
+  </div>
+
+  <div class="tracker-box">
+    <h2>Your Mood History 💭</h2>
+    <ul id="mood-log"></ul>
+  </div>
+
+  <div class="calendar-box">
+    <h2>Mood Calendar 📅</h2>
+    <div id="calendar-grid"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
