@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGIN SCREEN -->
+  <div id="login-screen">
+    <h2>Login to Mood Tracker 💖</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+    <p id="login-error" style="color: red; display: none;">Invalid login. Try again!</p>
+  </div>
+
+  <!-- INTRO PAGE -->
+  <div id="intro-screen" style="display: none;">
+    <h1>Welcome to Mood Tracker ✨</h1>
+    <p>Track your emotions and get daily motivation 💬</p>
+    <button onclick="startSite()" class="save-btn">Start</button>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="main-content" style="display: none;">
+    <h2>Your Mood Tracker Goes Here</h2>
+    <!-- Add mood tracker, calendar, etc. -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
