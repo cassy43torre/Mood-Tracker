@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Tracker Project</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- INTRO PAGE -->
+  <div id="intro-screen">
+    <h1>Welcome to Mood Tracker ✨</h1>
+    <p>Track your emotions and get daily motivation 💬</p>
+    <button onclick="startSite()" class="save-btn">Start</button>
+  </div>
+
+  <!-- MIDDLE SCREEN -->
+  <div id="middle-screen" style="display: none; padding: 30px 40px; max-width: 800px; margin: 40px auto; background: #fffaf5; border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.1); line-height: 1.6;">
+    <h2>💬 Emoji-Quote Generator</h2>
+    <p>Choose an emoji that fits how you're feeling. The website will show a random quote to inspire or encourage you.</p>
+
+    <h2>📅 Mood Tracker</h2>
+    <p>When clicked, an emoji automatically records your mood for the day and adds it to your calendar.</p>
+
+    <h2>🧠 Why We Made This</h2>
+    <p>We know students go through stress and pressure. This site is a safe space to track your feelings and stay motivated.</p>
+
+    <h2>✨ Additional Features</h2>
+    <ul style="padding-left: 20px;">
+      <li>📝 Jot down your thoughts, don’t be shy — no one’s here to ask you why!</li>
+      <li>📖 Your feels get saved in your mood archive — read them later, laugh or cry.</li>
+      <li>📆 Check your calendar, don’t be surprised — “Wow, I mood-switched ten whole times!”</li>
+      <li>💡 It boosts your vibes and clears your mind — stay bright, stay cool, stay emotionally aligned!</li>
+      <li>🗣️ Speak your truth, don’t hold it in — this site says, “You’re valid, always win!”</li>
+    </ul>
+    <button onclick="showMainSite()" class="save-btn">Go to Tracker</button>
+  </div>
+
+  <!-- MAIN WEBSITE -->
+  <div id="main-site" style="display: none;">
+    <!-- Insert your full mood tracker + quote generator layout here -->
+    <h2>💖 Mood Tracker Interface</h2>
+    <!-- This will be replaced with your actual mood tracker code -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdf0f3;
+  color: #333;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #ff69b4;
+}
+
+.save-btn {
+  background: #ffc0cb;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.save-btn:hover {
+  background: #ff90b3;
+}
